@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Game Adventure</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="character.html">Character Selection</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <h1>Welcome to the Roblox Game Adventure!</h1>
+  <p>Choose your options:</p>
+  <form action="startgame.html" method="get">
+    <section>
+      <fieldset>
+        <legend>Choose your character:</legend>
+        <label>
+          <input type="radio" name="character" value="1character1.html">
+          <img src="1character1.png" alt="Character 1" class="character-image">
+        </label>
+        <label>
+          <input type="radio" name="character" value="2character2.html">
+          <img src="2character2.png" alt="Character 2" class="character-image">
+        </label>
+        <label>
+          <input type="radio" name="character" value="3character3.html">
+          <img src="3character3.png" alt="Character 3" class="character-image">
+        </label>
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <legend>Choose your game mode:</legend>
+        <label>
+          <input type="radio" name="mode" value="explore.html">
+          Explore
+        </label>
+        <label>
+          <input type="radio" name="mode" value="battle.html">
+          Battle
+        </label>
+        <label>
+          <input type="radio" name="mode" value="puzzle.html">
+          Puzzle
+        </label>
+      </fieldset>
+    </section>
+    <input type="submit" value="Start Game">
+  </form>
+</body>
+</html>
